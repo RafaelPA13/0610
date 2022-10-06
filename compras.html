@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- CSS customizado -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo.png">
+</head>
+<body>
+    <div class="container-flex">
+    <nav class="navbar bg-light">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Pallavicinni" srcset=""></a>
+          <h1>Pallavicinni</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <main>
+    <div class="container">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg>
+
+        <div class="text-center">
+          <h1>Produto Escolhido</h1>
+          <img src="img/terno.png" alt="terno preto">
+          <h2>Terno Preto</h2>
+          <p>Preço: R$5000</p>
+        </div>
+    </div>
+      <div class="Mainflex">
+        <div class="select">
+            <h3>Selecione o Tamanho:</h3>
+            <select>
+                <option value="0"></option>
+                <option value="1">TAM 40</option>
+                <option value="2">TAM 42</option>
+                <option value="3">TAM 44</option>
+                <option value="4">TAM 46</option>
+                <option value="5">TAM 48</option>
+                <option value="6">TAM 50</option>
+                <option value="7">TAM 52</option>
+            </select>
+        </div>
+
+        <div class="descricao">
+            <h3>Descrição do Produto:</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, dolores. Voluptates corporis sunt, magnam consequuntur quaerat sapiente dolore, mollitia vero iusto maxime, ex culpa soluta similique autem! Necessitatibus, beatae maiores?</p>
+        </div>
+
+        <a href="" class="btn btn-dark">Adicionar ao carrinho 🛒</a>
+      </div>
+    </main>
+
+    <footer>
+      <div class="marca">
+        <img src="img/logo.png" alt="Pallavicinni">
+        <h2>Pallavicinni</h2>
+      </div>
+
+      <div class="redes">
+        <div class="instagram">
+          <img src="img/instagram.png" alt="instagram">
+          <p>@pallavicinni</p>
+        </div>
+
+        <div class="twitter">
+          <img src="img/twitter.png" alt="twitter">
+          <p>@pallavicinni</p>
+        </div>
+
+        <div class="youtube">
+          <img src="img/youtube.png" alt="youtube">
+          <p>pallavicinni</p>
+        </div>
+
+        <div class="loja">
+          <div class="discovery">
+          <h3>Discovery</h3>
+          <p>Nova sessão</p>
+          <p>Mais populares</p>
+          <p>Mais baratos</p>
+        </div>
+
+        <div class="about">
+          <h3>About</h3>
+          <p>Ajuda</p>
+          <p>Envio</p>
+          <p>Afiliado</p>
+        </div>
+
+        <div class="info">
+          <h3>Info</h3>
+          <p>Contato</p>
+          <p>Políticas e Privacidade</p>
+          <p>Termos e Condições</p>
+        </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
