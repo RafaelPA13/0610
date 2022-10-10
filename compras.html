@@ -13,7 +13,8 @@
     <link rel="icon" href="img/logo.png">
 </head>
 <body>
-    <div class="container-flex">
+  <!--Header-->
+    <div class="Header">
     <nav class="navbar bg-light">
         <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Pallavicinni" srcset=""></a>
           <h1>Pallavicinni</h1>
@@ -55,23 +56,20 @@
         </div>
       </div>
     </nav>
-</div>
+    </div>
+  <!--Fim do Header-->
+
+  <!--Main-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <main>
-    <div class="container">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-          </svg>
-
-        <div class="text-center">
+      <div class="text-center">
           <h1>Produto Escolhido</h1>
           <img src="img/terno.png" alt="terno preto">
           <h2>Terno Preto</h2>
           <p>Preço: R$5000</p>
-        </div>
-    </div>
-      <div class="Mainflex">
-        <div class="select">
+
+        <div class="conteudo">
+          <div class="select">
             <h3>Selecione o Tamanho:</h3>
             <select>
                 <option value="0"></option>
@@ -83,62 +81,152 @@
                 <option value="6">TAM 50</option>
                 <option value="7">TAM 52</option>
             </select>
-        </div>
+          </div>
 
-        <div class="descricao">
+          <div class="descricao">
             <h3>Descrição do Produto:</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, dolores. Voluptates corporis sunt, magnam consequuntur quaerat sapiente dolore, mollitia vero iusto maxime, ex culpa soluta similique autem! Necessitatibus, beatae maiores?</p>
+            </div>
         </div>
 
-        <a href="" class="btn btn-dark">Adicionar ao carrinho 🛒</a>
+        <a href="" class="btn btn-dark ">Adicionar ao carrinho 🛒</a>
       </div>
     </main>
+  <!--Fim do Main-->
 
-    <footer>
-      <div class="marca">
-        <img src="img/logo.png" alt="Pallavicinni">
-        <h2>Pallavicinni</h2>
+   <!--Footer-->
+   <footer class="text-center text-lg-start bg-dark text-muted footer">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <p>&#169;2022 - Pallavicinni </p>
       </div>
-
-      <div class="redes">
-        <div class="instagram">
-          <img src="img/instagram.png" alt="instagram">
-          <p>@pallavicinni</p>
-        </div>
-
-        <div class="twitter">
-          <img src="img/twitter.png" alt="twitter">
-          <p>@pallavicinni</p>
-        </div>
-
-        <div class="youtube">
-          <img src="img/youtube.png" alt="youtube">
-          <p>pallavicinni</p>
-        </div>
-
-        <div class="loja">
-          <div class="discovery">
-          <h3>Discovery</h3>
-          <p>Nova sessão</p>
-          <p>Mais populares</p>
-          <p>Mais baratos</p>
-        </div>
-
-        <div class="about">
-          <h3>About</h3>
-          <p>Ajuda</p>
-          <p>Envio</p>
-          <p>Afiliado</p>
-        </div>
-
-        <div class="info">
-          <h3>Info</h3>
-          <p>Contato</p>
-          <p>Políticas e Privacidade</p>
-          <p>Termos e Condições</p>
-        </div>
-        </div>
+      <!-- Left -->
+  
+  
+  
+     <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
       </div>
-    </footer>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+  
+  
+   <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Pallavicinni
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+  
+  
+         <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Produtos
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Ternos</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Calças</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Acessórios</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Palitos</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+  
+  
+         <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Preços</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Interesses</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Pedidos</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Ajuda</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+  
+  
+         <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+            <p><i class="fas fa-home me-3"></i> São Paulo, SP, Br</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              pallavicinni@fiap.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 89</p>
+            <p><i class="fas fa-print me-3"></i> + 10 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+  
+  
+   <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2022 Pallavicinni:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!--Fim do Footer-->
 </body>
 </html>

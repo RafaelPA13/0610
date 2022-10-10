@@ -1,71 +1,45 @@
-svg {
-    display: flex;
-    width: 70px;
-    height: 80px;
-    margin: 50px;
+/*smartphone portrait*/
+@media (min-width: 375px){
+    html{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .Header{
+        display: flex;
+        justify-content: center;
+        margin: 10px 20px 10px 20px;
+    }
+
+    main{
+        display: flex;
+        margin: 10px;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .select{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px 40px 10px 40px;
+    }
+
+    .descricao{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 40px 10px 40px;
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    
 }
 
-.Mainflex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 25px 100px 0px 100px;
-}
-
-.select{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 10px;
-}
-
-.descricao{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 10px;
-}
-
-footer{
-    display: flex;
-    width: 100%;
-    margin: 25px 100px 0px 100px;
-    flex-direction: column;
-}
-
-.marca{
-    display: flex;
-    flex-direction: row;
-}
-
-.redes{
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-}
-
-.instagram{
-    display: flex;
-    flex-direction: row;
-}
-
-.twitter{
-    display: flex;
-    flex-direction: row;
-}
-
-.youtube{
-    display: flex;
-    flex-direction: row;
-}
-
-.loja{
-    display: flex;
-    flex-direction: row;
-}
-
-.discovery {
-    display: flex;
-    flex-direction: column;
-}
